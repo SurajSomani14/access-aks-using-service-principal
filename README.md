@@ -18,7 +18,7 @@ This Python script uses kubeconfig file from AKS, converts it using kubelogin co
 
 - Assign below Azure AD role to this app on AKS resource. 
 
-      ***Azure Kubernetes Service Cluster User***
+      Azure Kubernetes Service Cluster User
   This role is required in order to read kubeconfig file.
 
 - Set up required Kubernetes RBAC role and role binding.
